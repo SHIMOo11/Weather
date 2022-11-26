@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.weather{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    /* background-position: center center; */
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Concert One', cursive;
+    height: 100vh;
+
+}
+
+.weather h1{
+    font-size: 60px;
+    width: 100%;
+    color: #A7DAEF;
+    font-family: 'Concert One', cursive;
+}
+.inputs{
+    width: 100%;
+}
+.header input{
+    width: 70%;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 16px;
+    border-bottom: 8px solid #FFDDD6;
+    border-left: 8px solid #FFDDD6;
+    border-right: 8px solid #FFDDD6;
+}
+
+.header button{
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 16px;
+    border-bottom: 8px solid #FFDDD6;
+    border-left: 8px solid #FFDDD6;
+    border-right: 8px solid #FFDDD6;
+    margin-left: 20px;
+    color: #FED9D1;
+    
+}
+.header input::placeholder{
+    color: #FED9D1;
+    font-size: 20px;
+
+}
+.header input:focus{
+    border:8px solid rgba(253, 201, 201, 0.918);
+    border-top: none;
+    outline: none;
+}
+.all .base{
+    margin: 7px 0px 0px 0px;
+    background-color: rgba(177, 226, 243,.5);
+    box-shadow: 10px 10px 30px #b9aeab;
+    border-radius: 10px;
+    padding: 5px 0px 5px 0px;
+    color: white;
+}
+.all .base h2{
+    font-size: 50px;
+    color:rgb(251, 182, 162);
+    text-align: center;
+    font-family: 'Concert One', cursive;
+}
+.all .base h2 span{
+    font-size: 40px;
+}
+.dayes .day{
+    color: white;
+    text-align: center;
+background-color: rgba(177, 226, 243,.5);
+background-color: rgba(251, 182, 162,.6);
+border-radius: 10px;
+padding: 10px 0px;
+box-shadow: 10px 10px 30px #b9aeab;
+margin-bottom: 7px;
+margin-top: 3px;
+}
+.dayes .day p{
+    margin-bottom: 0;
+}
+.dayes .day .atm{
+    /* color: #A7DAEF; */
+    font-weight: 600;
+}
+.box h5{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Concert One', cursive;
+    font-size: 40px;
+}
+.box h6{
+    font-size: 35px;
+}
+.box h4{
+    font-size: 35px;
+}
+.box p{
+    font-size: 25px;
+    margin-bottom: 0;
+}
+.forcast p{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.parg{
+    color: rgb(251, 182, 162);
+    font-weight: 600;
+}

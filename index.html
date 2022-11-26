@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,100;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <section class="weather add">
+        <div class="container">
+
+            
+            <div class="all ">
+            <div class="info">
+                <div class="header d-flex flex-column justify-content-center align-items-center">
+                    <h1>Weather</h1>
+                    <div class="inputs">
+                        <input type="text" class="search-box" placeholder="Search for a city" id="search">
+                        <button id="btnSearch" >Search</button>
+                    </div>
+                </div>
+                <div class="row base">
+                    <h2 id="city"><span><i class="fa-sharp fa-solid fa-location-dot"></i></span> CITY</h2>
+                    <div class="col-md-6">
+                        <div class="temp-box d-flex align-items-center">
+                            <div class="imgme w-75">
+                                <img src="images/116.webp" alt="" id="img" class="w-75 imginfo ">
+                            </div>
+                            <div class="box w-50">
+                                <h4 id="first-day"> </h4>
+                                <h4 id="first-date" > </h4>
+                                <p id="firstDay-weather"></p>
+                                <!-- <p id="firstDay-weatherf"></p> -->
+                                <p id="atmosphere" class="parg"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex align-items-center justify-content-center">
+                        <div class="forcast">
+                            <p>Humidity .............................. <span id="temp1">??</span></p>
+                            <p>Wind_mph ........................... <span id="temp2">??</span></p>
+                            <p>Wind_degree ........................ <span id="temp3">??</span></p>
+                            <p>Cloud .................................... <span id="temp4">??</span></p>
+                            <p>Pressure_mb ......................... <span id="temp5">??</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dayes">
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="day">
+                            <h4 id="second-day"></h4>
+                            <!-- <h4 id="day1">2022-??-??</h4> -->
+                            <img id="imgDay1" src="images/116.webp" alt="" class="w-50 mb-0">
+                            <br>
+                            <p id="max-temp2" class="d-inline-block"></p>
+                            <p id="min-temp2" class="d-inline-block"></p>
+                            <p id="atmosphere2" class="atm"></p>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="day">
+                            <h4 id="third-day"></h4>
+                            <!-- <h4 id="day2">2022-??-??</h4> -->
+                            <img id="imgDay2" src="images/116.webp" alt="" class="w-50 mb-0">
+                            <br>
+                            <p id="max-temp3" class="d-inline-block">-- °C / </p>
+                            <p id="min-temp3" class="d-inline-block">-- °F</p>
+                            <p id="atmosphere3" class="atm"></p>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="day">
+                            <h4 id="four-day"></h4>
+                            <img id="imgDay3" src="images/116.webp" alt="" class="w-50 mb-0">
+                            <br>
+                            <p id="max-temp4" class="d-inline-block">-- °C / </p>
+                            <p id="min-temp4" class="d-inline-block">-- °C / </p>
+                            <p id="atmosphere4" class="atom"></p>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="day">
+                            <h4 id="five-day"></h4>
+
+                            <img id="imgDay4" src="images/116.webp" alt="" class="w-50 mb-0">
+                            <br>
+                            <p id="max-temp5" class="d-inline-block">-- °C / </p>
+                            <p id="min-temp5" class="d-inline-block">-- °F</p>
+                            <p id="atmosphere5" class="atom"></p>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="day">
+                            <h4 id="six-day"></h4>
+                            <img id="imgDay5" src="images/116.webp" alt="" class="w-50 mb-0">
+                            <br>
+                            <p id="max-temp6" class="d-inline-block">-- °C / </p>
+                            <p id="min-temp6" class="d-inline-block">-- °F</p>
+                            <p id="atmosphere6" class="atom"></p>
+                        </div>
+                    </div> 
+                    <div class="col-md-2">
+                        <div class="day">
+                            <h4 id="seven-day"></h4>
+                            <img id="imgDay6" src="images/116.webp" alt="" class="w-50 mb-0">
+                            <br>
+                            <p id="max-temp7" class="d-inline-block">-- °C / </p>
+                            <p id="min-temp7" class="d-inline-block">-- °F</p>
+                            <p id="atmosphere7" class="atom"></p>
+                        </div>
+                    </div> 
+                </div>
+                    
+                </div>
+            </div>
+            </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
